@@ -5,7 +5,7 @@
 repos:
 -   repo: https://github.com/python/black
     with:
-       rev: ${{ secrets.BLACK_VERSION }}
+    - rev: ${{ secrets.BLACK_VERSION }}
     hooks:
     - id: black
 -   repo: https://github.com/fsfe/reuse-tool
