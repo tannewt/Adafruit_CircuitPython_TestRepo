@@ -32,7 +32,6 @@ class Test:
     """Test class."""
 
     def __init__(self):
-        self._test_value = "Untested"
 
     @staticmethod
     def test():
