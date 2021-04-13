@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2019 Kattni Rembor for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+"""
 `adafruit_testrepo`
 ================================================================================
 
@@ -26,6 +31,7 @@ __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_TestRepo.git"
 class Test:
 
     def __init__(self):
+        self._test_value = "Untested"
 
     @staticmethod
     def test():
@@ -33,16 +39,17 @@ class Test:
         while True:
             pass
 
+
+
     @property
     def test_property(self):
         """Test property"""
         return self._test_value
 
+
     @test_property.setter
     def test_property(self, value):
-        self._test_value = value
-
-
+        self._test_value = value        
 
 
 
