@@ -25,7 +25,6 @@ __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_TestRepo.git"
 
 
 class Test:
-    """Test class."""
 
     def __init__(self):
 
