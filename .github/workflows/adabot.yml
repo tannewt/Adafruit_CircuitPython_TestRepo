@@ -20,4 +20,4 @@ jobs:
         GITHUB_CONTEXT: ${{ toJson(github) }}
       run: echo "$GITHUB_CONTEXT"
     - name: Post comment to help
-      uses: adafruit/circuitpython-action-library-ci-failed@v0
+      uses: adafruit/circuitpython-action-library-ci-failed@v1
