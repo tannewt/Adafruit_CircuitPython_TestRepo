@@ -1,7 +1,3 @@
-# SPDX-FileCopyrightText: 2019 Kattni Rembor for Adafruit Industries
-#
-# SPDX-License-Identifier: MIT
-
 """
 `adafruit_testrepo`
 ================================================================================
